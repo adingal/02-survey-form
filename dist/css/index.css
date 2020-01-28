@@ -11,10 +11,10 @@ body {
 
 #main-header,
 #main-footer {
-    background-color: #091534;}
+    background-color: rgba(0,0,0,0.8);}
 
-#main-footer {
-    border-top: 1px solid #fff;}
+#main-form {
+    background-color: rgba(0,0,0,0.3);}
 
 #main-form .form-group {
     text-align: left;
@@ -22,3 +22,6 @@ body {
 
 #form-section .overlay {
     background-color: rgba(0,0,0,0.7);}
+
+#main-footer {
+    border-top: 1px solid #fff;}
