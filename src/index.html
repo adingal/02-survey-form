@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Alex Dingal">
+    <meta name="description" content="Survey form project">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Survey Form</title>
+</head>
+
+<body>
+    <!-- main header -->
+    <section id="main-header" class="pt-4 pb-2 text-center text-white">
+        <div class="container">
+            <h1 class="font-weight-bold pb-2 mb-0">Survey Form</h1>
+        </div>
+    </section>
+
+    <!-- form -->
+    <section id="form-section">
+        <div class="overlay">
+            <div class="container">
+                <div class="row py-4">
+                    <div class="col-md-7 offset-md-5 col-lg-5 text-white">
+                        <form id="main-form" class="border rounded p-4 text-center">
+                            <p class="text-center">Please let us know what we can do to serve you better.</p>
+                            <div class="form-group">
+                                <label for="name">Name:</label>
+                                <input type="text" id="name" class="form-control" placeholder="Enter your name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" class="form-control" placeholder="Enter your email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="number">Age:</label>
+                                <input type="number" id="number" class="form-control" min="18" max="75" placeholder="Enter your age">
+                            </div>
+                            <div class="form-group">
+                                <label for="dropdown">What do you prefer?</label>
+                                <select id="dropdown" class="form-control">
+                                    <option selected="" disabled="">Choose</option>
+                                    <option>Lower price</option>
+                                    <option>Fast delivery</option>
+                                    <option>Excellent service</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <p>Select your favorite egg:</p>
+                                <div class="form-check">
+                                    <input type="radio" id="bf1" name="egg">
+                                    <label for="bf1">Benedict</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="radio" id="bf2" name="egg">
+                                    <label for="bf2">Florentine</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="radio" id="bf3" name="egg">
+                                    <label for="bf3">Omelette</label>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <p>What additional breakfast would you enjoy?</p>
+                                <div class="form-check">
+                                    <input type="checkbox" id="bf4">
+                                    <label for="bf4">Hotdog</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="checkbox" id="bf5">
+                                    <label for="bf5">Grains</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="checkbox" id="bf6">
+                                    <label for="bf6">Burger</label>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="comment">What additional breakfast would you enjoy?</label>
+                                <textarea id="comment" class="form-control"></textarea>
+                            </div>
+                            <button class="btn btn-outline-light">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- main footer -->
+    <footer id="main-footer" class="py-2 text-white">
+        <div class="container pt-3">
+            <div class="row">
+                <div class="col-6 d-none d-lg-block">
+                    <p>This survey form is for project purposes only. Thanks for the free background image by <a href="https://pixabay.com/users/ponce_photography-2473530/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1442034">Aline Ponce</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1442034">Pixabay</a>.</p>
+                </div>
+                <div class="col text-right">
+                    <p>Copyright &copy; <span id="year"></span></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- scripts -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>

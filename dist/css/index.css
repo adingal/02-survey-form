@@ -1,0 +1,24 @@
+body {
+    background-image: url('../img/bg-yogurt.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 16px;}
+
+#main-header {
+    border-bottom: 1px solid #fff;}
+
+#main-header,
+#main-footer {
+    background-color: #091534;}
+
+#main-footer {
+    border-top: 1px solid #fff;}
+
+#main-form .form-group {
+    text-align: left;
+    margin-bottom: 10px;}
+
+#form-section .overlay {
+    background-color: rgba(0,0,0,0.7);}
